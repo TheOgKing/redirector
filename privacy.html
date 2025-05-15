@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Embedly For Discord</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 800px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #1a1a1a;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        .disclaimer {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        strong {
+            font-weight: bold;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .important-note {
+            background-color: #e9f5ff;
+            border-left: 5px solid #007bff;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer">
+        <strong>IMPORTANT DISCLAIMER:</strong> This is a template and NOT legal advice. It is generated based on the information provided and general knowledge. You MUST consult with a lawyer to ensure this privacy policy is complete, accurate, and compliant with all applicable laws and regulations (like GDPR, CCPA, Apple's App Store guidelines, Discord's Developer Policy, etc.) for your specific use case and jurisdiction.
+    </div>
+
+    <h1>Privacy Policy for Embedly For Discord</h1>
+
+    <p><strong>Effective Date:</strong> May 15, 2025</p>
+    <p><strong>Last Updated:</strong> May 15, 2025</p>
+
+    <h2>1. Introduction</h2>
+    <p>Welcome to Embedly For Discord ("Embedly," "the App," "we," "us," or "our"). Embedly is a mobile and web application developed by FowlLover (also known as "TheOgKing") designed to help users create, manage, and send embed messages to Discord channels.</p>
+    <p>This Privacy Policy explains our practices regarding information when you use our App. <strong>Crucially, Embedly For Discord is designed so that we, the developers (FowlLover/TheOgKing), do not collect or have access to the specific content you create or the Discord bot tokens you manage within the App.</strong> This data is stored locally on your device or transmitted directly by the App to Discord under your control.</p>
+    <p>Your privacy is important to us. By using Embedly, you agree to the practices described in this policy regarding information handled by the App and its interactions with necessary third-party services.</p>
+    <p>Please also review the privacy policies of third-party services that Embedly interacts with:</p>
+    <ul>
+        <li><strong>Discord:</strong> <a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">https://discord.com/privacy</a></li>
+        <li><strong>Expo:</strong> <a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer">https://expo.dev/privacy</a> (and <a href="https://expo.dev/privacy-explained" target="_blank" rel="noopener noreferrer">https://expo.dev/privacy-explained</a>)</li>
+        <li><strong>GitHub (for assets):</strong> <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a></li>
+    </ul>
+
+    <h2>2. Our Data Philosophy: Your Data Stays With You</h2>
+    <div class="important-note">
+        <p>Embedly For Discord operates on the principle that your sensitive data, such as Discord bot tokens and the content of your embeds and templates, remains under your control and is not collected by or accessible to us (FowlLover/TheOgKing).</p>
+        <ul>
+            <li><strong>No Server-Side Storage of Your Embed Data or Tokens by Us:</strong> We do not operate servers that store your Discord bot tokens, the content of embeds you create, or your saved templates.</li>
+            <li><strong>Local Processing:</strong> All creation, management, and storage of this specific user-generated data happen locally on your device.</li>
+            <li><strong>Direct Interaction with Discord:</strong> When you send an embed or manage tokens, the App facilitates a direct interaction between your device and Discord's API, using the credentials you provide.</li>
+        </ul>
+    </div>
+
+    <h2>3. Information Handled by the App</h2>
+    <p>While we don't collect your core data, the App necessarily handles certain information to function:</p>
+
+    <h3>3.1. Information You Provide and Manage Locally:</h3>
+    <ul>
+        <li><strong>Discord Bot Tokens:</strong>
+            <ul>
+                <li><strong>What & How:</strong> You provide Discord bot tokens in the App's settings to enable message sending.</li>
+                <li><strong>Storage:</strong> <strong>These tokens are stored exclusively locally and securely on your device</strong> using <code>expo-secure-store</code> (on mobile) or <code>localStorage</code> (on web). <strong>We do not have access to these tokens.</strong></li>
+                <li><strong>Purpose:</strong> To allow the App, running on your device, to authenticate with the Discord API on your behalf.</li>
+                <li><strong>Validation:</strong> Token validation occurs by making a request from your device directly to Discord's API (<code>https://discord.com/api/v10/users/@me</code>).</li>
+            </ul>
+        </li>
+        <li><strong>Embed Content:</strong>
+            <ul>
+                <li><strong>What & How:</strong> You create embed content (titles, descriptions, colors, image URLs, fields) within the App.</li>
+                <li><strong>Storage:</strong> This content is held in the App's memory on your device during creation. If saved as a template, it is stored locally. <strong>We do not collect or store this content on our servers.</strong></li>
+                <li><strong>Purpose:</strong> To construct the embed message that your instance of the App will send to Discord.</li>
+            </ul>
+        </li>
+        <li><strong>Template Data:</strong>
+            <ul>
+                <li><strong>What & How:</strong> You can save embed designs as templates, including a name and the embed content.</li>
+                <li><strong>Storage:</strong> <strong>Template data is stored exclusively locally on your device. We do not have access to your saved templates.</strong></li>
+                <li><strong>Purpose:</strong> To allow you to easily reuse your embed designs on your device.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>3.2. Information Fetched from Discord (via Your Bot Token, Processed Locally):</h3>
+    <ul>
+        <li><strong>Server (Guild) and Channel Information:</strong>
+            <ul>
+                <li><strong>What & How:</strong> Using a bot token you provide, the App (running on your device) fetches lists of servers (<code>https://discord.com/api/v10/users/@me/guilds</code>) and channels (<code>https://discord.com/api/v10/guilds/{guildId}/channels</code>) your bot can access directly from the Discord API.</li>
+                <li><strong>Storage:</strong> This information is typically fetched on demand and held temporarily in the App's memory on your device for selection. <strong>We do not store this information on our servers.</strong></li>
+                <li><strong>Purpose:</strong> To enable you to select the target server/channel for your embeds.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>3.3. Information Potentially Collected by Third-Party Services (Not by Us Directly):</h3>
+    <p>It is important to understand that third-party services essential for the App's development, distribution, and certain functionalities may collect some data according to their own privacy policies.</p>
+    <ul>
+        <li><strong>Expo Services:</strong> Embedly is built using Expo. Expo may collect certain data as part of its services (e.g., for over-the-air updates via EAS Update, diagnostics, analytics if enabled by Expo's default configurations).
+            <ul>
+                <li><strong>What this might include:</strong> According to Expo's "Privacy Explained" page, they collect very little end-user data. For features like EAS Update, requests may contain non-identifying information needed to process the update (e.g., OS, project ID). If push notifications were implemented and used via Expo's services, Expo would handle push tokens.</li>
+                <li><strong>Our Access:</strong> <strong>We do not receive personally identifiable end-user data from Expo's routine collection related to your use of the App.</strong></li>
+                <li><strong>Your Control:</strong> Please refer to Expo's Privacy Policy (<a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer">https://expo.dev/privacy</a>) and their "Privacy Explained" page (<a href="https://expo.dev/privacy-explained" target="_blank" rel="noopener noreferrer">https://expo.dev/privacy-explained</a>) for detailed information on their data collection practices and your choices.</li>
+            </ul>
+        </li>
+        <li><strong>App Stores (Apple App Store, Google Play Store):</strong> If you download Embedly from an app store, the store itself will collect information related to your download and account as per their respective privacy policies. We only receive aggregated and anonymized statistics from app stores, if any.</li>
+        <li><strong>Discord:</strong> When the App interacts with Discord using your bot token (as initiated by you), Discord processes data according to its Privacy Policy and Developer Policy. This includes the content of messages sent, API request logs, etc., all handled by Discord's platform.</li>
+    </ul>
+
+    <h3>3.4. Information We DO NOT Collect or Access:</h3>
+    <p>To reiterate and expand:</p>
+    <ul>
+        <li>We have <strong>zero access</strong> to your Discord bot tokens stored in the App.</li>
+        <li>We have <strong>zero access</strong> to the specific content of the embeds you create or the templates you save locally on your device.</li>
+        <li>We do not create user accounts within Embedly itself.</li>
+        <li>We do not directly collect or store personal identifiers like your name, email address, physical address, phone number, or financial information (unless you voluntarily provide them when contacting us for support).</li>
+        <li>We do not track your activity across other apps or websites.</li>
+    </ul>
+
+    <h2>4. How Your Information is Used (by the App on Your Device and by Third Parties)</h2>
+    <ul>
+        <li><strong>By the App (Locally on Your Device):</strong>
+            <ul>
+                <li>To allow you to create, preview, and edit Discord embeds.</li>
+                <li>To facilitate the sending of your embeds to Discord using your provided bot tokens.</li>
+                <li>To save and manage your embed templates locally.</li>
+                <li>To retrieve and display your Discord server and channel lists for message targeting.</li>
+                <li>To validate your Discord bot tokens by communicating directly from your device to Discord.</li>
+            </ul>
+        </li>
+        <li><strong>By Third-Party Services (Discord, Expo):</strong>
+            <ul>
+                <li><strong>Discord:</strong> Uses your information (as accessed via your bot token under your control) to deliver messages, manage your bot's presence in guilds, and operate its platform, all as per their policies.</li>
+                <li><strong>Expo:</strong> May use data as described in their privacy policy to provide their platform services, such as app updates through EAS Update or other developer services.</li>
+            </ul>
+        </li>
+        <li><strong>If You Contact Us for Support:</strong> If you contact FowlLover/TheOgKing for support, any information you voluntarily provide (e.g., email address, description of an issue) will be used solely to address your support request.</li>
+    </ul>
+
+    <h2>5. How Information is Stored and Secured (Locally and by Third Parties)</h2>
+    <ul>
+        <li><strong>Local Storage on Your Device:</strong>
+            <ul>
+                <li>Discord Bot Tokens and Embed Templates are stored using <code>expo-secure-store</code> on mobile (which aims to encrypt data at rest) or <code>localStorage</code> on web platforms.</li>
+                <li><strong>You are responsible for the security of your own device and the Discord bot tokens you use.</strong></li>
+            </ul>
+        </li>
+        <li><strong>Third-Party Storage:</strong>
+            <ul>
+                <li>Data handled by Discord (e.g., messages sent, API interactions) is stored on Discord's servers according to their security practices and policies.</li>
+                <li>Data handled by Expo (e.g., for EAS Updates, if applicable) is managed according to Expo's security practices and policies.</li>
+            </ul>
+        </li>
+        <li><strong>Our Commitment:</strong> While we do not store your core operational data, we commit to developing Embedly using reputable tools (like Expo) and following standard development practices to ensure the App itself operates as described.</li>
+    </ul>
+
+    <h2>6. Information Sharing and Disclosure (by the App and by Third Parties)</h2>
+    <ul>
+        <li><strong>From Your Device to Discord:</strong> The App facilitates the sending of your embed content and the use of your bot token directly to Discord's API at your instruction. This is an inherent function of the App.</li>
+        <li><strong>No Sharing of Your Local Data by Us:</strong> <strong>We do not have access to, and therefore cannot share, your locally stored Discord bot tokens or embed templates with any third party.</strong></li>
+        <li><strong>Third-Party Sharing:</strong>
+            <ul>
+                <li><strong>Discord:</strong> May share data as outlined in their Privacy Policy.</li>
+                <li><strong>Expo:</strong> May share data as outlined in their Privacy Policy.</li>
+            </ul>
+        </li>
+        <li><strong>For Legal Reasons (Pertaining to the Developer, if applicable):</strong>
+            <p>In the rare event FowlLover/TheOgKing is required by law or valid legal process to disclose information (which would likely not be user-specific data from the app itself given its local-first data model, but perhaps related to us as a developer entity), we would comply as legally obligated.</p>
+        </li>
+    </ul>
+
+    <h2>7. Your Data Rights and Choices</h2>
+    <p>You have significant control over the information handled by Embedly because it's primarily stored on your device:</p>
+    <ul>
+        <li><strong>Accessing, Modifying, and Deleting Your Locally Stored Information:</strong>
+            <ul>
+                <li>You can view, modify, or delete your saved Discord bot tokens directly within the App's Settings tab.</li>
+                <li>You can view, use, or delete your saved embed templates directly within the App's Templates tab.</li>
+                <li>You can modify embed content before sending it.</li>
+                <li>Uninstalling the App will typically remove all locally stored data associated with the App from your device (this behavior can be OS-dependent).</li>
+            </ul>
+        </li>
+        <li><strong>Control over Third-Party Data:</strong>
+            <ul>
+                <li>For data held by Discord, refer to Discord's Privacy Policy and your Discord account settings.</li>
+                <li>For data potentially held by Expo, refer to Expo's Privacy Policy.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>8. Children's Privacy</h2>
+    <p>Embedly For Discord is not intended for use by children under the age of 13 (or the relevant minimum age of digital consent in their jurisdiction). We do not knowingly facilitate the collection of personal information from children by the App itself. Users are responsible for complying with Discord's age restrictions. If you are a parent or guardian and you are aware that your child has provided us with personal information or is using the App in violation of age restrictions, please contact us so that we can take appropriate action.</p>
+
+    <h2>9. International Data Considerations</h2>
+    <p>Your core operational data (tokens, templates, embed content) is stored locally on your device. When you use the App to interact with Discord (a global service), data such as your embed messages and API requests will be processed by Discord's servers, which may be located in the United States or other countries. Similarly, services provided by Expo may operate internationally. Please refer to their respective privacy policies for details on how they handle international data transfers.</p>
+
+    <h2>10. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the App and/or on our website or app store listing, and updating the "Last Updated" date at the top of this Privacy Policy.</p>
+    <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted. Your continued use of the App after any modification to this Privacy Policy will constitute your acceptance of such modification.</p>
+
+    <h2>11. Contact Information</h2>
+    <p>If you have any questions or concerns about this Privacy Policy (please understand that we cannot access your specific in-app data like tokens or templates), please contact FowlLover (TheOgKing) through:</p>
+    <ul>
+        <li><strong>GitHub:</strong> <a href="https://github.com/TheOgKing" target="_blank" rel="noopener noreferrer">https://github.com/TheOgKing</a></li>
+        <li><strong>Discord:</strong> <a href="https://discordapp.com/users/580459249352704010" target="_blank" rel="noopener noreferrer">User ID 580459249352704010</a></li>
+        <li><strong>Email:</strong> [Your Support Email Address Here - e.g., support@example.com]</li>
+    </ul>
+
+    <div class="disclaimer" style="margin-top: 30px;">
+        <strong>Final Reminder:</strong> This document is a template and not a substitute for professional legal advice. Consult with a qualified legal professional to ensure your privacy policy is compliant and tailored to your specific needs.
+    </div>
+
+</body>
+</html>
